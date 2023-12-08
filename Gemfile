@@ -20,6 +20,8 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+gem "punching_bag"
+
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
 gem "stimulus-rails"
@@ -38,6 +40,8 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 end
+
+gem 'ransack'
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
